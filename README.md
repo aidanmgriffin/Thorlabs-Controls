@@ -55,7 +55,7 @@ The code for the flip mount control is largely contained in the following functi
 
 ### Notes
 
-The key call is <em>object_name</em>.move_jog(False) for opening the gate and  <em>object_name</em>.move_jog(True) for closing the gate.
+The key calls are <em>object_name</em>.move_jog(False) for opening the gate and  <em>object_name</em>.move_jog(True) for closing the gate.
 
 To confirm that the computer recognizes the device, you can blink an LED on the flip mounts(and likely for other ThorLabs devices) by calling <em>object_name</em>.identify()
 
